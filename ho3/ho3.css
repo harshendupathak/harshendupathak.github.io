@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(6, 8, 99);
+}
+
+#container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    row-gap: 60px;
+    margin-left: 10%;
+    padding: 5%;
+}
+
+.employee1,.employee2,.employee3,.employee4,.employee5,.employee6,.employee7,.employee8,.employee9,.employee10,.employee11,.employee12{
+    background-color: white;
+    position: relative;  
+    width: 100%;
+    height: 320px;
+}
+
+
+#data p{
+    font-size: 13px;
+    margin-bottom: 0%;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+img{
+    padding-left: 15%;
+    padding-bottom: 1%;
+    width: 250px;
+    height: 180px;
+}
+
+#table{
+    display: none;
+    margin-top: 5%;
+}
+
+thead{
+    font-weight: bold;
+}
+
+table{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+td{
+    background-color: white;
+    border: 2px solid rgb(6, 8, 99);
+    text-align: center;
+}
+
+#grid ,#list{
+    background-color: white;
+    border: none;
+    width: 5%;
+    height: 5%;
+}
+
+#grid:hover, #list:hover {
+    background-color: rgb(6, 8, 99);
+    color: white;
+}
