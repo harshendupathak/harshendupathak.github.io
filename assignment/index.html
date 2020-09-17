@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 17-09-2020</title>
+        <style>
+            body {
+    background-color: #f1f3f6 !important;
+}
+#container {
+    margin-top: 80px;
+    position: absolute;
+    width: 50%;
+    right: 30%;
+    background-color: white;
+    padding: 3%;
+}
+#inside-container{
+    position: relative;
+}
+.heading {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+.bullet{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+.bullet li {
+    list-style-type: none;
+}
+.price {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.delete {
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    background-color: rgb(238, 118, 118);
+    border: none;
+    color: white;
+    font-weight: 400;
+}
+.delete:hover {
+    background-color: red;
+}
+
+#add{
+    margin-top: 20px;
+    position: absolute;
+    left: 20%;
+    width: 50%;
+}
+#add button {
+    background-color: rgb(130, 221, 130);
+    border: none;
+    color: white;
+}
+#add button:hover {
+    background-color: rgb(42, 197, 42);
+}
+#add input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.5%;
+}
+
+
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+       <div id="add">
+            <input id="imageUrl" type="text" placeholder="Enter Image URL">
+            <input id="heading" type="text" placeholder="Enter Heading">
+            <input id="price" type="text" placeholder="Enter Price" >
+            <button onclick="Flipkart.addMobile()" type="button">Add Mobile</button>
+        </div> 
+        <div id="container">
+
+        </div>
+        
+        <script>
+            var Flipkart = (function(){
+    var mobiles = [];
+
+    const render = () => {
+        document.querySelector("#container").innerHTML = `
+        ${mobiles.map(({image,heading,bulletOne,bulletTwo,bulletThree,bulletFour,bulletFive,bulletSix,price},index,counter) => 
+            `
+            <div id="inside-container" class="${+index++}"><div><img src="${image}"></div>
+                <div class="heading"><h3>${heading}</h3></div>
+                <div class="bullet"><ul><li>${bulletOne}</li><li>${bulletTwo}</li><li>${bulletThree}</li><li>${bulletFour}</li><li>${bulletFive}</li><li>${bulletSix}</li></ul></div>
+                <div class="price"><h3>${price}</h3></div>
+                <div><button class="delete" id="${index}" onclick="Flipkart.deleteMobile(this.id)" >Delete</button></div><hr></div>
+            `)}
+            
+        `;
+    } 
+
+    const fetchMobiles = () => {
+        fetch('https://jsonblob.com/api/28967c8d-f8c8-11ea-a7b3-f5cbb5372d95').then(response => response.json()).then(json => {mobiles = [...json]
+            render()
+        })
+    }
+
+    const addMobile = () => {
+        var imageUrl = document.querySelector("#imageUrl").value;
+        var heading = document.querySelector("#heading").value;
+        var price = document.querySelector("#price").value;
+        if(imageUrl == "" || heading == "" || price == ""){
+            render();
+        }else {
+            var obj = {"image":imageUrl,"heading":heading,"bulletOne": "- 6GB RAM | 64GB ROM | Expandable Upto 512 GB",
+            "bulletTwo": "- 16.56 cm (6.52 inch) HD+ Display",
+            "bulletThree": "- 13MP +8MP + 2MP + 2MP | 8MP Front Camera",
+            "bulletFour": "- 6000 mAh Lithium-ion Battery",
+            "bulletFive": "- Mediatek Helio G35 Processor",
+            "bulletSix": "- Brand Warranty of 1 Year Available foir Mobile and 6 Months for Accessories",
+            "price": "Rs " + price}
+            mobiles = [obj,...mobiles];
+            render();
+            document.querySelector("#imageUrl").value = '';
+            document.querySelector("#heading").value = '';
+            document.querySelector("#price").value = '';
+        }
+        
+    }
+
+    const deleteMobile = (id) => {
+        mobiles.splice((id-1),1);
+        console.log(mobiles);
+        render();
+    }
+
+    const init = () => {
+        fetchMobiles()
+    }
+
+    return {
+        init,fetchMobiles,render,addMobile,deleteMobile
+    }
+})();
+Flipkart.init();
+
+
+        </script>
+    </body>
+
+</html>
