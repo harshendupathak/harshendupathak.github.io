@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(3, 4, 66) !important;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 0px;
+    row-gap: 40px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5%;
+}
+
+.employee0,.employee1,.employee2,.employee3,.employee4,.employee5,.employee6,.employee7,.employee8,.employee9,.employee10,.employee11{
+    background-color: white;
+    position: relative;  
+    width: 100%;
+    height: 320px;
+}
+
+
+#data p{
+    font-size: 13px;
+    margin-bottom: 0%;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+img{
+    padding-left: 15%;
+    padding-bottom: 1%;
+    width: 250px;
+    height: 180px;
+}
+
+#table{
+    margin-top: 5%;
+}
+
+thead{
+    font-weight: bold;
+}
+
+table{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+td{
+    background-color: white;
+    border: 2px solid rgb(3, 4, 66);
+    text-align: center;
+}
+
+#grid {
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    background-color: white;
+    border: none;
+    width: 5%;
+    height: 5%;
+
+}
+#list{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    background-color: white;
+    border: none;
+    width: 5%;
+    height: 5%;
+}
+
+#grid:hover, #list:hover {
+    background-color: rgb(3, 4, 66);
+    color: white;
+}
