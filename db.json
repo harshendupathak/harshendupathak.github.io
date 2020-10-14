@@ -1,74 +1,17 @@
 [
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfTVBeA4I4MgCInTymIop2wcyr0Sfefd2SHHSQKAK8dqUJd9RA",
-    "name": "A Beautiful Mind",
+    "name": 1,
     "genre": "Drama/Romance",
     "cast": "Russel Crow,Jennifer Conelly,Ron Howard"
   },
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRod45bAdo2Os6THPDA2qDH2qIwNtqBlrjfZGGn_J2ppx6DIhhU",
     "name": "Seven",
-    "genre": "Crime/Mystery",
+    "genre": 2,
     "cast": "Brad Pitt,Morgan Freeman,Kevin Spacy"
   },
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfTVBeA4I4MgCInTymIop2wcyr0Sfefd2SHHSQKAK8dqUJd9RA",
-    "name": "Shutter Island",
+    "name": 3,
     "genre": "Thriller/Mystery",
     "cast": "Leonardo di Caprio,Mark Ruffalo,Ben Kingsley"
-  },
-  {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNgTszE1phYg2G7H4RrgeSEssOw-Kpnh0Si-sF5pVQQrBXJ_6e",
-    "name": "Fight Club",
-    "genre": "Drama/Thriller",
-    "cast": "Brad Pitt,Edward Norton"
-  },
-  {
-    "image": "https://pics.filmaffinity.com/Murder_Mystery-661435227-large.jpg",
-    "name": "Murder Mystery",
-    "genre": "Comedy/Mystery",
-    "cast": "Jennifer Aniston,Adam Sandler"
-  },
-  {
-    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJZypXoumBEmY_jorwRK6_O8u1LG-OckZyJqj9Pt1MCRngko0b",
-    "name": "Serious Men",
-    "genre": "Thriller",
-    "cast": "Nawazuddin Siddiqui,Shweta Basu Prasad"
-  },
-  {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQv6d8d8IcjjWpM2eCZ4suSev-gfFtIgC-gIB2TNC7yrdX7l1Tn",
-    "name": "The Last Days of American Crime",
-    "genre": "Crime/Action",
-    "cast": "Edgar Ramirez,Anna Brewster"
-  },
-  {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBRhEwZ1Xwgm1YhLgRIY6xJWSG3uXC3qDc6ztOifXTSt-9BNJK",
-    "name": "Malang",
-    "genre": "Romance/Thriller",
-    "cast": "Aditya Roy Kapur,Anil Kapoor,Disha Patani"
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ5vi9xgRkP0nk5aRn8tcGEGRnOQyM-aAS1ldqfQSi_69V1yfU",
-    "name": "The Imitation Game",
-    "genre": "War/Drama",
-    "cast": "Benedict Clumberbatch,Keira Knightley"
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppDgk99BKVA4TJtWc1FN4-HUkdWrFNfMm1-M0nQ01sIOcbTZu",
-    "name": "Forrest Gump",
-    "genre": "Romance/Drama",
-    "cast": "Tom Hanks, Robin Wright,Gary Sinirise"
-  },
-  {
-    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmJ_VstEGBVxseBkw71qpc7DHbGF6fydoDR2HGU6Kp4tfCN5I1",
-    "name": "The Departed",
-    "genre": "Thriller/Crime",
-    "cast": "Leonardo diCaprio,Matt Damon,Jack Nicholson"
-  },
-  {
-    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnm2FczCxSnt69XUZqqI5-sfy66SvjiV0du9mfUKRRCGqVAurt",
-    "name": "Django Unchained",
-    "genre": "Western/Drama",
-    "cast": "Jamie Fox,Leonardo diCaprio,Christoph Waltz"
-  }
-  ]
+  }  
+]
