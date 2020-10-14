@@ -1,18 +1,15 @@
 [
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfTVBeA4I4MgCInTymIop2wcyr0Sfefd2SHHSQKAK8dqUJd9RA",
     "name": 1,
     "genre": "Drama/Romance",
     "cast": "Russel Crow,Jennifer Conelly,Ron Howard"
   },
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRod45bAdo2Os6THPDA2qDH2qIwNtqBlrjfZGGn_J2ppx6DIhhU",
     "name": "Seven",
     "genre": 2,
     "cast": "Brad Pitt,Morgan Freeman,Kevin Spacy"
   },
   {
-    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfTVBeA4I4MgCInTymIop2wcyr0Sfefd2SHHSQKAK8dqUJd9RA",
     "name": 3,
     "genre": "Thriller/Mystery",
     "cast": "Leonardo di Caprio,Mark Ruffalo,Ben Kingsley"
