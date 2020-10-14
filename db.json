@@ -5,7 +5,6 @@
     "genre": "Drama/Romance",
     "imdb": "8.3",
     "cast": "Russel Crow,Jennifer Conelly,Ron Howard",
-    "director": "Ron Howard"
   },
   {
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRod45bAdo2Os6THPDA2qDH2qIwNtqBlrjfZGGn_J2ppx6DIhhU",
@@ -13,7 +12,6 @@
     "genre": "Crime/Mystery",
     "imdb": "8.6",
     "cast": "Brad Pitt,Morgan Freeman,Kevin Spacy",
-    "director": "David Fincher"
   },
   {
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfTVBeA4I4MgCInTymIop2wcyr0Sfefd2SHHSQKAK8dqUJd9RA",
@@ -21,7 +19,6 @@
     "genre": "Thriller/Mystery",
     "imdb": "8.2",
     "cast": "Leonardo di Caprio,Mark Ruffalo,Ben Kingsley",
-    "director": "Martin Scorses"
   },
   {
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNgTszE1phYg2G7H4RrgeSEssOw-Kpnh0Si-sF5pVQQrBXJ_6e",
@@ -29,7 +26,6 @@
     "genre": "Drama/Thriller",
     "imdb": "8.8",
     "cast": "Brad Pitt,Edward Norton",
-    "director": "David Fincher"
   },
   {
     "image": "https://pics.filmaffinity.com/Murder_Mystery-661435227-large.jpg",
@@ -37,7 +33,6 @@
     "genre": "Comedy/Mystery",
     "imdb": "6",
     "cast": "Jennifer Aniston,Adam Sandler",
-    "director": "Kyle Newacheck"
   },
   {
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJZypXoumBEmY_jorwRK6_O8u1LG-OckZyJqj9Pt1MCRngko0b",
@@ -45,7 +40,6 @@
     "genre": "Thriller",
     "imdb": "7.1",
     "cast": "Nawazuddin Siddiqui,Shweta Basu Prasad",
-    "director": "Sudhir Mishra"
   },
   {
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQv6d8d8IcjjWpM2eCZ4suSev-gfFtIgC-gIB2TNC7yrdX7l1Tn",
@@ -53,7 +47,6 @@
     "genre": "Crime/Action",
     "imdb": "3.6",
     "cast": "Edgar Ramirez,Anna Brewster",
-    "director": "Olivier Megaton"
   },
   {
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBRhEwZ1Xwgm1YhLgRIY6xJWSG3uXC3qDc6ztOifXTSt-9BNJK",
@@ -61,7 +54,6 @@
     "genre": "Romance/Thriller",
     "imdb": "6.5",
     "cast": "Aditya Roy Kapur,Anil Kapoor,Disha Patani",
-    "director": "Mohit Suri"
   },
   {
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ5vi9xgRkP0nk5aRn8tcGEGRnOQyM-aAS1ldqfQSi_69V1yfU",
@@ -69,7 +61,6 @@
     "genre": "War/Drama",
     "imdb": "8",
     "cast": "Benedict Clumberbatch,Keira Knightley",
-    "director": "Morten Tyldum"
   },
   {
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppDgk99BKVA4TJtWc1FN4-HUkdWrFNfMm1-M0nQ01sIOcbTZu",
@@ -77,7 +68,6 @@
     "genre": "Romance/Drama",
     "imdb": "8.8",
     "cast": "Tom Hanks, Robin Wright,Gary Sinirise",
-    "director": "Robert Zemeckis"
   },
   {
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmJ_VstEGBVxseBkw71qpc7DHbGF6fydoDR2HGU6Kp4tfCN5I1",
@@ -85,7 +75,6 @@
     "genre": "Thriller/Crime",
     "imdb": "8.5",
     "cast": "Leonardo diCaprio,Matt Damon,Jack Nicholson",
-    "director": "Martin Scorses"
   },
   {
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnm2FczCxSnt69XUZqqI5-sfy66SvjiV0du9mfUKRRCGqVAurt",
@@ -93,6 +82,5 @@
     "genre": "Western/Drama",
     "imdb": "8.4",
     "cast": "Jamie Fox,Leonardo diCaprio,Christoph Waltz",
-    "director": "Quentin Tarantino"
   }
   ]
